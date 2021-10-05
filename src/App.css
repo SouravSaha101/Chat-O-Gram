@@ -8,8 +8,12 @@ body {
   margin: 0 auto;
 }
 
+h1 {
+  color: rgb(58, 58, 58);
+}
+
 .App header {
-  background-color: #181717;
+  background-color: #fff;
   height: 10vh;
   min-height: 50px;
   color: white;
@@ -23,6 +27,7 @@ body {
   z-index: 99;
   padding: 10px;
   box-sizing: border-box;
+  border: 3px solid #2e2c2c;
 }
 
 .App section {
@@ -30,7 +35,7 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  background-color: rgb(40, 37, 53);
+  background-color: rgb(129 101 255);
 }
 
 main {
@@ -70,7 +75,6 @@ form button {
   background-color: rgb(56, 56, 143);
 }
 
-
 input {
   line-height: 1.5;
   width: 100%;
@@ -99,18 +103,23 @@ button:disabled {
   cursor: not-allowed;
 }
 
-
 .sign-in {
-  color: #282c34;
   background: white;
   max-width: 400px;
   margin: 0 auto;
+  color: rgba(0, 0, 0, 0.54);
+  box-shadow: 1px 1px 5px 0 rgb(0 0 0 / 20%);
+  border-color: transparent;
+  text-align: center;
+  border-radius: 3px;
+  width: 99%;
+  height: 39px;
+  padding-top: 0;
+  margin-bottom: 12px;
 }
 
-
-
-
-ul, li {
+ul,
+li {
   text-align: left;
   list-style: none;
 }
@@ -130,7 +139,6 @@ p {
   display: flex;
   align-items: center;
 }
-
 
 .sent {
   flex-direction: row-reverse;
@@ -153,3 +161,13 @@ img {
   margin: 2px 5px;
 }
 
+.sign-in-label {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 700;
+  padding: 3px;
+  height: 32px;
+  line-height: 32px;
+}
