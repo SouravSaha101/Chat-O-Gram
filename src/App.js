@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Chat-O-Gram💬</h1>
+        <h1>Chat-A-Gram💬</h1>
         <SignOut />
       </header>
 
